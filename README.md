@@ -41,8 +41,8 @@ durée du fichier maximale du fichier 3 minutes
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `audio_cand`  | `file` | **Obligatoire**. fichier audio |
-| `audio_ref` | `file` | **Obligatoire**. fichier audio |  
+| `reference`  | `file` | **Obligatoire**. fichier audio |
+| `candidate` | `file` | **Obligatoire**. fichier audio |  
 
 ## Tech Stack  
 **Client:** html, tailwindcss, javascript 

@@ -13,8 +13,7 @@ import os
 def postAudio():
     ref_file=request.files.get('reference')
     cand_file= request.files.get('candidate')
-    validate_audio_file(ref_file)
-    validate_audio_file(cand_file)
+   
     try:
         ref_file_name = ref_file.filename    
         ref_file.save(ref_file_name)
@@ -27,4 +26,4 @@ def postAudio():
 
 @audio_bp.route('/',methods=['GET'])
 def getAudio():
-    return 'ok'
+    return 'api fonctionnel pour la comparaison utilisé /api/comparaison '

@@ -70,4 +70,4 @@ def validate_audio_file(file_storage):
     except Exception as e:
         return f"Impossible de lire le fichier audio : {str(e)}"
     file_storage.seek(0)
-    return None
+

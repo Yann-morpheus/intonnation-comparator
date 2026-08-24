@@ -3,11 +3,6 @@ from app.utils import success_response,error_response
 from app.routes import audio_bp
 from app.services.audio_analyser import compare_audio
 from app.guard.files_guard import validate_audio_file
-import os
-
-# @audio_bp.route("/")
-# def index():
-#     return {"message": "api test"}
 
 @audio_bp.route('/compare',methods=['POST'])
 def postAudio():

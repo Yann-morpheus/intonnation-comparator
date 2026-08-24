@@ -47,7 +47,7 @@ durée du fichier maximale du fichier 3 minutes
 ## Tech Stack  
 **Client:** html, tailwindcss, javascript 
 
-**Server:** Flask 
+**Server:** Flask , parselmouth, numpy, praat-dtw-python
 
 ## Author 
 - [@Happi yann](https://www.github.com/Yann-morpheus)  
